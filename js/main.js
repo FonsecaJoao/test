@@ -7,13 +7,16 @@ $('#cat').click(function(e) {
 	incrementMoney();
 });
 
-$('#cat').tap(function(e) {
+$('#cattwo').click(function(e) {
 	incrementMoney();
-})
+});
+
+// $('#cat').tap(function(e) {
+// 	incrementMoney();
+// })
 
 function incrementMoney() {
 	moves++;
 	money.innerHTML = 'Money: ' + moves;
 }
-
   
