@@ -4,42 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&amp;subset=latin-ext">
+  <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
   <title>Cat Clicker</title>
 </head>
 
-  <body class="container">
+  <body>
   
   <h1 class="text-center">Cat Clicker</h1>
   
   <section class="row">
 
     <h3 id="money" class="text-center"> 
-      <span></span>
-    </h3>
-
-    <h3 id="moneytwo" class="text-center"> 
-      <span></span>
+      <p>Money: 0</p>
     </h3>
 
   </section>
   
   
-  <main>
+  <main class="container">
     
     <section class="row text-center">
-      <span class="col-xs-6 col-sm-6">George</span>
-       <span class="col-xs-6 col-sm-6">Gregory</span>
+      <span id="cat-name"class="col-xs-10 col-sm-10 text-uppercase">George</span>
+      <span class="col-xs-2 col-sm-2 text-uppercase">Choose another cat</span>
     </section>
 
-    <section class="row">
+    <section class="row catspace">
 
-      <figure class="text-center col-xs-6 col-sm-6">
+      <figure class="text-center col-xs-10 col-sm-10">
 
-        <img  id="cat"src="img/cat.png" alt="Cat picture - Clicking me will make you earn more money">
+        <img  id="cat" src="img/george.png" alt="Cat picture - Clicking me will make you earn more money">
 
         <figcaption class="margspacing">
         Clicking me will make you earn more money
@@ -47,18 +43,17 @@
 
       </figure>
 
-      <figure class="text-center col-xs-6 col-sm-6">
-
-        <img  id="cattwo"src="img/cattwo.png" alt="Another Cat picture - Clicking me will make you earn more money">
-
-        <figcaption>
-        Clicking me will make you earn more money
-        </figcaption>
-
-      </figure>
-
+        <aside class="col-xs-2 col-sm-2">
+          <ul class="text-center">
+            <li id="george">George</li>
+            <li id="gregory">Gregory</li>
+            <li id="tiger">Tiger</li>
+            <li id="sponge">Sponge</li>
+            <li id="felix">Felix</li>
+          </ul>
+        </aside>
     </section>
-
+   
   </main>
 
   
